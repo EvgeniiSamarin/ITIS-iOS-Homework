@@ -13,6 +13,7 @@ struct HomeViewController: View {
 
     var body: some View {
         Text("HomeViewController")
+            .padding(.bottom, 40)
     }
 }
 
