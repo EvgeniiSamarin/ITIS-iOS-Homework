@@ -16,6 +16,7 @@
 		7DB7825A26F915D800902284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB7825826F915D800902284 /* LaunchScreen.storyboard */; };
 		7DB7826526F915D900902284 /* Homework1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7826426F915D900902284 /* Homework1Tests.swift */; };
 		7DB7827026F915D900902284 /* Homework1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7826F26F915D900902284 /* Homework1UITests.swift */; };
+		7DB7827F26F917E200902284 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7827E26F917E200902284 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7DB7826B26F915D900902284 /* Homework1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homework1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB7826F26F915D900902284 /* Homework1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework1UITests.swift; sourceTree = "<group>"; };
 		7DB7827126F915D900902284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB7827E26F917E200902284 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				7D4F588D26F91B380099C1B6 /* Extensions */,
+				7DB7827D26F917CB00902284 /* ViewControllers */,
 				7DB7824D26F915D600902284 /* AppDelegate.swift */,
 				7DB7824F26F915D600902284 /* SceneDelegate.swift */,
 				7DB7825126F915D600902284 /* ContentView.swift */,
@@ -145,6 +148,14 @@
 				7DB7827126F915D900902284 /* Info.plist */,
 			);
 			path = Homework1UITests;
+			sourceTree = "<group>";
+		};
+		7DB7827D26F917CB00902284 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DB7827E26F917E200902284 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +292,7 @@
 				7DB7825026F915D600902284 /* SceneDelegate.swift in Sources */,
 				7D4F588F26F91B4B0099C1B6 /* UIApplication+Extensions.swift in Sources */,
 				7DB7825226F915D600902284 /* ContentView.swift in Sources */,
+				7DB7827F26F917E200902284 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
