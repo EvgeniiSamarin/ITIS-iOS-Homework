@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Text("Hello from branch 1")
+            .foregroundColor(.green)
     }
 }
 
