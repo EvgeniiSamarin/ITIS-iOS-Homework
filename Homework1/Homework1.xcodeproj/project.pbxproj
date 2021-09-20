@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D4F588F26F91B4B0099C1B6 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F588E26F91B4B0099C1B6 /* UIApplication+Extensions.swift */; };
 		7DB7824E26F915D600902284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7824D26F915D600902284 /* AppDelegate.swift */; };
 		7DB7825026F915D600902284 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7824F26F915D600902284 /* SceneDelegate.swift */; };
 		7DB7825226F915D600902284 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7825126F915D600902284 /* ContentView.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D4F588E26F91B4B0099C1B6 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
 		7DB7824A26F915D600902284 /* Homework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB7824D26F915D600902284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DB7824F26F915D600902284 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D4F588D26F91B380099C1B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7D4F588E26F91B4B0099C1B6 /* UIApplication+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		7DB7824126F915D600902284 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 		7DB7824C26F915D600902284 /* Homework1 */ = {
 			isa = PBXGroup;
 			children = (
+				7D4F588D26F91B380099C1B6 /* Extensions */,
 				7DB7827D26F917CB00902284 /* ViewControllers */,
 				7DB7824D26F915D600902284 /* AppDelegate.swift */,
 				7DB7824F26F915D600902284 /* SceneDelegate.swift */,
@@ -279,6 +290,7 @@
 			files = (
 				7DB7824E26F915D600902284 /* AppDelegate.swift in Sources */,
 				7DB7825026F915D600902284 /* SceneDelegate.swift in Sources */,
+				7D4F588F26F91B4B0099C1B6 /* UIApplication+Extensions.swift in Sources */,
 				7DB7825226F915D600902284 /* ContentView.swift in Sources */,
 				7DB7827F26F917E200902284 /* HomeViewController.swift in Sources */,
 			);
