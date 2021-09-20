@@ -10,7 +10,7 @@ import SwiftUI
 extension UIApplication {
     class func openAppSettings() {
         UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!, options: [:], completionHandler: {enabled in
-            print("Enabled: \(!enabled)")
+            print("Enabled: \(enabled)")
         })
     }
 }
